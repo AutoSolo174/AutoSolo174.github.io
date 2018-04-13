@@ -1,0 +1,660 @@
+.dws-menu [type="checkbox"],
+.dws-menu label.toggleMenu,
+.dws-menu label.toggleSubmenu {
+    display: none;
+}
+
+.dws-menu label.toggleSubmenu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1500px) {
+    .dws-menu ul li > a i.fa {
+        position: absolute;
+        padding: 2px 5px 0 0;
+        top: 8px;
+        left: 10px;
+        font-size: 14px;
+    }
+
+    p.menu {
+        min-width: 60px;
+        margin: 0;
+        padding: 0;
+    }
+    .dws-menu > ul li a {
+        display: block;
+        padding: 10px 5px 10px 30px;
+        font-size: 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .dws-menu ul li > a > p.nashiRaboty {
+        width: 105px;
+    }
+    .dws-menu ul li > a > p.uslugi {
+        width: 75px;
+    }
+    .dws-menu label.toggleSubmenu .fa {
+        position: absolute;
+        top: 8px;
+        font-size: 20px;
+        right: 10px;
+    }
+    .navigation {
+        display: flex;
+        padding: 30px 30px 0 0;
+    }
+
+    .log {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 110px;
+        width: 450px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    .naz {
+        padding: 15px 0 0 10px;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .log > span > p.adres {
+        padding: 10px 0 0 10px;
+        margin: 0;
+        font-size: 12px;
+    }
+    .log > span > p.phone {
+        padding: 9px 0 0 10px;
+        font-size: 18px;
+    }
+    .log > span > p.phone > i.fa-phone {
+
+        font-size: 15px;
+    }
+    .autosolo {
+        margin: 5px 0 0 5px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+}
+
+
+@media all and (max-width: 1200px) {
+    .fon {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "log""navigation";
+        width: 100%;
+        background: #000;
+    }
+    .dws-menu ul li {
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    .dws-menu ul li > a i.fa {
+        position: absolute;
+        padding: 0px 5px 0 0;
+        top: 13px;
+        left: 10px;
+        font-size: 12px;
+        color: #fff;
+    }
+    p.menu {
+        min-width: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        padding: 0 0;
+        width: 100%;
+        -webkit-width: 85%;
+    }
+    .pervaj > h3 {
+        font-size: 20px;
+        -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+        transform: translateY(-120%);
+    }
+    .pervaj:hover.pervaj > h3 {
+        -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+        transform: translateY(-120%);
+    }
+    .pervaj > h3.vmjt {
+        font-size: 16px;
+
+    }
+    .pervaj {
+        width: 100%;
+        height: 230px;
+    }
+    .log {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 110px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .naz {
+        padding: 20px 0 0 10px;
+        margin: 0;
+        font-size: 17px
+    }
+
+    .log > span > p.adres {
+        width: 220px;
+        padding: 12px 0 0 10px;
+        margin: 0;
+        font-size: 12px;
+    }
+    .log > span > p.adres > i.fa-map-marker {
+        font-size: 12px;
+        margin: 0;
+        padding: 0 5px 0 0;
+    }
+    .autosolo {
+        margin: 5px 0 0 5px;
+        width: 80px;
+        height: 80px
+    }
+    div.carousel-caption > H3 {
+        font-size: 50px;
+    }
+    div.carousel-caption > P {
+        font-size: 12px;
+    }
+    .row > .col-lg-3 > .img-bloc.img.img7.img30 {
+        display: none;
+    }
+    #dws-slider {
+        margin-top: 40px;
+    }
+    .img-1 > a > .keramika {
+        width: 400px;
+        float: right;
+        overflow: hidden;
+        margin: 38px 0 0 10px;
+    }
+    .row > h5.index-1 {
+        margin: 38px 20px 0;
+    }
+    .row > p.index-1 {
+        margin: 0 15px;
+    }
+    .heder h3 {
+        font-size: 25px;
+    }
+    h3.kontakty {
+        text-align: center;
+        margin: 50px 10% 10px 5%;
+        padding: 0 0 0 50px;
+        font-family: url(../fonts/glyphicons-halflings-regular.eot);
+        font-size: 23px;
+        color: #dbe4ed;
+    }
+    p.kontakty {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 18px;
+        width: 100%;
+        margin: 20px 0 5px 0;
+        border-bottom: none;
+        color: aliceblue;
+    }
+    .heder span.podval > p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .maps {
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        height: 200px;
+    }
+    .maps iframe {
+        margin: 20px 20px 20px 0;
+        padding: 0;
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 990px) {
+    div.carousel-caption > H3 {
+        font-size: 20px;
+    }
+    div.carousel-caption > P {
+        font-size: 8px;
+    }
+    .log {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 110px;
+        width: 517px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    .log > span.kontakty {
+        margin: 0;
+        padding: 0;
+        height: 110px;
+        width: 200px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    .naz {
+        padding: 20px 0 0 10px;
+        margin: 0;
+        font-size: 17px
+    }
+
+    .autosolo {
+        margin: 5px 0 0 5px;
+        width: 80px;
+        height: 80px
+    }
+    #dws-slider {
+        margin-top: 40px;
+    }
+    .img-1 > .keramika {
+        width: 300px;
+        float: right;
+        overflow: hidden;
+        margin: 38px 0 0 10px;
+    }
+    .img-1 > a > .keramika {
+        width: 250px;
+        float: right;
+        overflow: hidden;
+        margin: 38px 0 0 10px;
+    }
+    .row > h5.index-1 {
+        margin: 38px 20px 0;
+    }
+    .row > p.index-1 {
+        margin: 0 15px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .pervaj > h3 {
+        font-size: 20px;
+        -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+        transform: translateY(-120%);
+    }
+    .pervaj:hover.pervaj > h3 {
+        -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+        transform: translateY(-120%);
+    }
+    .pervaj > h3.vmjt {
+        font-size: 16px;
+
+    }
+    .pervaj {
+        width: 100%;
+        height: 100%;
+    }
+    .maps.kontakty {
+        width: 100%;
+        height: 250px;
+        margin: 10px 10px;
+        float: right;
+    }
+
+    .maps.kontakty iframe {
+        width: 100%;
+        height: 250px;
+        margin: 0;
+    }
+    .maps {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 200px;
+    }
+    .maps iframe {
+        margin: 0 0 0 2px;
+        padding: 0;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 570px) {
+    .dws-menu label.toggleMenu {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6bbc1+24,e0eff9+62 */
+        background: rgb(182, 187, 193);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(182, 187, 193, 1) 24%, rgba(224, 239, 249, 1) 62%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(182, 187, 193, 1) 24%, rgba(224, 239, 249, 1) 62%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(182, 187, 193, 1) 24%, rgba(224, 239, 249, 1) 62%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6bbc1', endColorstr='#e0eff9', GradientType=0);
+        /* IE6-9 */
+        ;
+        display: block;
+        margin: 0;
+        padding: 12px 40px;
+        text-transform: uppercase;
+        font-size: 14px;
+        cursor: pointer;
+        position: relative
+    }
+    .dws-menu li > ul > li > a {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6bbc1+24,e0eff9+62 */
+        background: rgb(162, 165, 170);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgb(133, 135, 139) 24%, rgb(211, 220, 226) 62%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgb(133, 135, 139) 24%, rgba(211, 220, 226, 1) 62%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(133, 135, 139, 1) 24%, rgb(211, 220, 226) 62%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6bbc1', endColorstr='#e0eff9', GradientType=0);
+        /* IE6-9 */
+        ;
+    }
+    .dws-menu label.toggleMenu .fa {
+        position: absolute;
+        top: 14px;
+        left: 12px;
+        font-size: 18px;
+    }
+    .dws-menu {
+        overflow: hidden;
+    }
+    .dws-menu ul,
+    .dws-menu ul > li > ul {
+        display: block;
+        max-height: 0;
+        transition: max-height 0.3s ease-in;
+        margin: 0;
+        padding: 0;
+    }
+    input.toggleMenu:checked ~ ul,
+    input.toggleSubmenu:checked ~ ul {
+        display: block;
+        max-height: 5000px;
+        transition: max-height 2s ease-in;
+        position: relative;
+        width: 100%;
+    }
+
+    .dws-menu ul li > a i.fa {
+        position: absolute;
+        padding: 0px 5px 0 0;
+        top: 13px;
+        left: 10px;
+        font-size: 12px;
+        color: #000;
+    }
+    .navigation {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .dws-menu > ul li a {
+        width: 100%;
+        font-size: 13px;
+
+    }
+    .dws-menu ul li > a > p.nashiRaboty {
+        width: 125px;
+    }
+    .fon {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "log""navigation";
+        width: 100%;
+        background: #000;
+        margin: 5px 0 0 0;
+    }
+
+    .log {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 110px;
+        width: 350px;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    .log > span.socsety > a.instagram {
+        display: none;
+    }
+
+    .log > span.socsety > a.vk {
+        display: none;
+    }
+    input.toggleMenu:checked + label.toggleMenu {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+21,0e0e0e+83 */
+        background: rgb(125, 126, 125);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(125, 126, 125, 1) 21%, rgba(14, 14, 14, 1) 83%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(125, 126, 125, 1) 21%, rgba(14, 14, 14, 1) 83%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(125, 126, 125, 1) 21%, rgba(14, 14, 14, 1) 83%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+        /* IE6-9 */
+        ;
+        color: #fff;
+        margin: 0;
+    }
+
+
+    .dws-menu label.toggleSubmenu .fa::before {
+        content: "\f0d7";
+        color: #454550;
+        float: right;
+    }
+    .dws-menu label.toggleSubmenu .fa {
+        position: absolute;
+        top: 15px;
+        font-size: 20px;
+        right: 10px;
+    }
+    .dws-menu input.toggleSubmenu:checked ~ label.toggleSubmenu .fa::before {
+        content: "\f0d8";
+        color: #454550;
+    }
+
+    .dws-menu > ul li a {
+        display: block;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6bbc1+24,e0eff9+62 */
+        background: rgb(182, 187, 193);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(182, 187, 193, 1) 24%, rgba(224, 239, 249, 1) 62%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(182, 187, 193, 1) 24%, rgba(224, 239, 249, 1) 62%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(182, 187, 193, 1) 24%, rgba(224, 239, 249, 1) 62%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6bbc1', endColorstr='#e0eff9', GradientType=0);
+        /* IE6-9 */
+        ;
+        padding: 10px 20px 10px 30px;
+        font-size: 15px;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 0.2px solid #ffffff;
+    }
+    .dws-menu > ul li a:active {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+11,828c95+33,28343b+76,28343b+76 */
+        background: #b5bdc8;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #b5bdc8 11%, #828c95 33%, #28343b 76%, #28343b 76%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #b5bdc8 11%, #828c95 33%, #28343b 76%, #28343b 76%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #b5bdc8 11%, #828c95 33%, #28343b 76%, #28343b 76%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b', GradientType=0);
+        /* IE6-9 */
+        ;
+        color: #fff;
+    }
+    #dws-slider {
+        margin-top: 40px;
+    }
+    div.carousel-caption > H3 {
+        font-size: 12px;
+    }
+    div.carousel-caption > P {
+        font-size: 5px;
+    }
+    h1.zagolovok {
+        font-size: 18px;
+        margin: 0;
+    }
+    .img-bloc > h3 {
+        font-size: 12px;
+    }
+    .img-1 > .keramika {
+        width: 150px;
+        float: none;
+        margin: 41px 0 0 0px;
+
+    }
+
+    .row > h5.index-1 {
+        margin: 50px 15px 0;
+        font-size: 18px;
+    }
+
+    .row > p.index-1 {
+        margin: 10px;
+        font-size: 15px;
+    }
+    .img-1 > a > .keramika {
+        width: 150px;
+        float: none;
+        margin: 41px 0 0 0px;
+    }
+    .pervaj > h3 {
+        font-size: 16px;
+        -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+        transform: translateY(-120%);
+    }
+    .pervaj:hover.pervaj > h3 {
+        -webkit-transform: translateY(-120%);
+        -ms-transform: translateY(-120%);
+        -o-transform: translateY(-120%);
+        transform: translateY(-120%);
+    }
+    .pervaj > h3.vmjt {
+        font-size: 13px;
+
+    }
+    .pervaj {
+        width: 100%;
+        margin: 0;
+    }
+    .heder h3 {
+        text-align: center;
+        font-size: 20px;
+        margin: 10px 0 0;
+        padding: 0 0 0 30px;
+
+    }
+    .heder span.podval > p {
+        text-decoration: underline;
+        border-bottom: none;
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+    }
+    .heder_2 h3 {
+        border-top: 2px solid#fff;
+        color: aliceblue;
+        font-size: 15px;
+        font-family: serif;
+        margin: 0;
+    }
+
+    .heder_2 p {
+        color: aliceblue;
+        font-size: 12px;
+        font-family: serif;
+        margin: 0;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .maps.kontakty {
+        width: 100%;
+        height: 200px;
+        margin: 10px 0;
+        float: right;
+    }
+
+    .maps.kontakty iframe {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 365px) {
+    .navigation {
+        display: block;
+        justify-content: center;
+        margin: 0 0;
+        padding: 0;
+        z-index: 100;
+        width: 341px;
+    }
+    .pervaj > h3 {
+        font-size: 12px;
+        -webkit-transform: translateY(-90%);
+        -ms-transform: translateY(-90%);
+        -o-transform: translateY(-90%);
+        transform: translateY(-90%);
+    }
+    .pervaj:hover.pervaj > h3 {
+        -webkit-transform: translateY(-90%);
+        -ms-transform: translateY(-90%);
+        -o-transform: translateY(-90%);
+        transform: translateY(-90%);
+    }
+    .pervaj > h3.vmjt {
+        font-size: 11px;
+
+    }
+    .pervaj {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        font-size: 14px;
+    }
+}
